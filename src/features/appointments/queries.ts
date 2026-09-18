@@ -1,9 +1,4 @@
-import {
-  useMutation,
-  useQuery,
-  useQueryClient
-} from '@tanstack/react-query';
-
+import { useMutation, useQuery,useQueryClient} from '@tanstack/react-query';
 import { get, post, put } from '../../services/api';
 
 export function useAppointmentListQuery(date: string) {
@@ -36,4 +31,4 @@ export function useStatusMutation() {
         queryKey: ['appointments']
       })
   });
-}
+} 

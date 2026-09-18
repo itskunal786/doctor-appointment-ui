@@ -1,5 +1,4 @@
 import { Link, useNavigate } from 'react-router';
-
 import AppointmentForm from '../components/AppointmentForm';
 import { useBookAppointmentMutation } from '../queries';
 
